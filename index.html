@@ -78,9 +78,10 @@ h4{margin:0 0 8px;font-size:15px}
 .outs{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(152px,1fr));margin-bottom:10px}
 .l{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:6px}
-.mt{display:flex;gap:10px;justify-content:space-around;align-items:flex-end}
-.mt .dv{align-self:stretch;width:1px;background:var(--ln)}
-.mc{text-align:center;font-size:12px}
+.mt{display:flex;gap:10px;align-items:flex-end}
+.mt .dv{align-self:stretch;flex:0 0 1px;width:1px;background:var(--ln)}
+.mc{flex:1 1 0;min-width:0;text-align:center;font-size:12px}
+.mc .v{display:inline-block;width:52px;max-width:100%;padding:2px 3px;border:1px solid var(--ln);border-radius:4px;white-space:nowrap;text-align:center;line-height:1.2}
 .m{position:relative;width:16px;height:var(--mh);margin:4px auto;background:linear-gradient(#e33 0,#e33 6%,#ec3 22%,#3d3 45%,#2b2 100%);border-radius:2px;overflow:hidden}
 .m i{position:absolute;left:0;right:0;top:0;background:#0b0f14;height:100%}
 .m:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(transparent 0 3px,#0b0f14 3px 4px)}
